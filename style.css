@@ -1,3 +1,19 @@
 .img {
     max-width: 750px;
 }
+
+@font-face {
+    font-family: 'cofo';
+    src: url('../CoFoSans-Regular.ttf') format('woff2');
+}
+
+body {
+    font-family: 'cofo', sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    background-color: #CC0000;
+    height: 5vh;
+    position: relative;
+}
